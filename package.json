@@ -1,0 +1,25 @@
+{
+  "name": "firestore-sizer",
+  "version": "1.0.2",
+  "description": "Calculate the size of Firestore documents in bytes, following custom rules.",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c && cp src/index.d.ts dist/index.d.ts",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "keywords": [
+    "firestore",
+    "size",
+    "firebase",
+    "javascript"
+  ],
+  "author": "Jorge Zambrano (jzambrano12)",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^...",
+    "@rollup/plugin-node-resolve": "^...",
+    "rollup": "^..."
+  }
+}
