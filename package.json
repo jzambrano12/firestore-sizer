@@ -1,7 +1,7 @@
 {
   "name": "firestore-sizer",
   "version": "1.0.2",
-  "description": "Calculate the size of Firestore documents in bytes, following custom rules.",
+  "description": "A lightweight utility to calculate Firestore document sizes in bytes, helping prevent document size limit violations.",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
